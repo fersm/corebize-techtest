@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Circular Std-Bold';
+  src: local('Circular Std-Bold'), url(./assets/fonts/CircularStd-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Circular Std-Medium';
+  src: local('Circular Std-Medium'), url(./assets/fonts/CircularStd-Medium.ttf) format('truetype');
+  font-weight: 100;
+}
