@@ -1,4 +1,4 @@
-import React, {Suspense, useState} from 'react';
+import React from 'react';
 
 import Grid from '@mui/material/Grid';
 import Badge from '@mui/material/Badge';
@@ -10,7 +10,7 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';

@@ -2,7 +2,7 @@ import React, {Suspense, useState} from 'react';
 
 import {Provider} from 'react-redux';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import {ThemeProvider, createTheme, styled, ThemeOptions} from '@mui/material/styles';
+import {ThemeProvider, createTheme, ThemeOptions} from '@mui/material/styles';
 
 import MainLayout from './components/MainLayout/MainLayout';
 
