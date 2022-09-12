@@ -10,9 +10,9 @@ import Header from '../Header/Header';
 const MainLayout = () => {
 
     return(
-        <Box sx={{display:'flex', flexDirection:'column', minHeight:'100vh'}}>
+        <Box sx={{display:'flex', flexDirection:'column', minHeight:'300px'}}>
             <Header/>
-            <Container maxWidth={false} sx={{marginTop:8, flex: '1 0 auto'}}>
+            <Container maxWidth={false} sx={{minWidth:'300px', marginTop:8, flex: '1 0 auto', paddingLeft:'0 !important', paddingRight:'0 !important' }}>
                 <Outlet/>
             </Container>
             <Footer/>
